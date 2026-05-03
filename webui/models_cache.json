@@ -1,0 +1,279 @@
+{
+  "active_provider": "opencode-go",
+  "default_model": "deepseek-v4-flash",
+  "configured_model_badges": {
+    "deepseek-v4-flash": {
+      "role": "primary",
+      "label": "Primary",
+      "provider": "opencode-go"
+    },
+    "opencode-go/deepseek-v4-flash": {
+      "role": "primary",
+      "label": "Primary",
+      "provider": "opencode-go"
+    },
+    "@opencode-go:deepseek-v4-flash": {
+      "role": "primary",
+      "label": "Primary",
+      "provider": "opencode-go"
+    }
+  },
+  "groups": [
+    {
+      "provider": "DeepSeek",
+      "provider_id": "deepseek",
+      "models": [
+        {
+          "id": "@deepseek:deepseek-v4-flash",
+          "label": "DeepSeek V4 Flash"
+        },
+        {
+          "id": "@deepseek:deepseek-v4-pro",
+          "label": "DeepSeek V4 Pro"
+        },
+        {
+          "id": "@deepseek:deepseek-chat-v3-0324",
+          "label": "DeepSeek V3 (legacy)"
+        },
+        {
+          "id": "@deepseek:deepseek-reasoner",
+          "label": "DeepSeek Reasoner (legacy)"
+        }
+      ]
+    },
+    {
+      "provider": "MiniMax (China)",
+      "provider_id": "minimax-cn",
+      "models": [
+        {
+          "id": "@minimax-cn:MiniMax-M2.7",
+          "label": "MiniMax M2.7"
+        },
+        {
+          "id": "@minimax-cn:MiniMax-M2.5",
+          "label": "MiniMax M2.5"
+        },
+        {
+          "id": "@minimax-cn:MiniMax-M2.1",
+          "label": "MiniMax M2.1"
+        },
+        {
+          "id": "@minimax-cn:MiniMax-M2",
+          "label": "MiniMax M2"
+        }
+      ]
+    },
+    {
+      "provider": "OpenCode Go",
+      "provider_id": "opencode-go",
+      "models": [
+        {
+          "id": "glm-5.1",
+          "label": "GLM-5.1"
+        },
+        {
+          "id": "glm-5",
+          "label": "GLM-5"
+        },
+        {
+          "id": "kimi-k2.5",
+          "label": "Kimi K2.5"
+        },
+        {
+          "id": "kimi-k2.6",
+          "label": "Kimi K2.6"
+        },
+        {
+          "id": "deepseek-v4-pro",
+          "label": "DeepSeek V4 Pro"
+        },
+        {
+          "id": "deepseek-v4-flash",
+          "label": "DeepSeek V4 Flash"
+        },
+        {
+          "id": "mimo-v2-pro",
+          "label": "MiMo V2 Pro"
+        },
+        {
+          "id": "mimo-v2-omni",
+          "label": "MiMo V2 Omni"
+        },
+        {
+          "id": "mimo-v2.5-pro",
+          "label": "MiMo V2.5 Pro"
+        },
+        {
+          "id": "mimo-v2.5",
+          "label": "MiMo V2.5"
+        },
+        {
+          "id": "minimax-m2.7",
+          "label": "MiniMax M2.7"
+        },
+        {
+          "id": "minimax-m2.5",
+          "label": "MiniMax M2.5"
+        },
+        {
+          "id": "qwen3.6-plus",
+          "label": "Qwen3.6 Plus"
+        },
+        {
+          "id": "qwen3.5-plus",
+          "label": "Qwen3.5 Plus"
+        }
+      ]
+    },
+    {
+      "provider": "OpenCode Zen",
+      "provider_id": "opencode-zen",
+      "models": [
+        {
+          "id": "@opencode-zen:gpt-5.4-pro",
+          "label": "GPT-5.4 Pro"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.4",
+          "label": "GPT-5.4"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.4-mini",
+          "label": "GPT-5.4 Mini"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.4-nano",
+          "label": "GPT-5.4 Nano"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.3-codex",
+          "label": "GPT-5.3 Codex"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.3-codex-spark",
+          "label": "GPT-5.3 Codex Spark"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.2",
+          "label": "GPT-5.2"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.2-codex",
+          "label": "GPT-5.2 Codex"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.1",
+          "label": "GPT-5.1"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.1-codex",
+          "label": "GPT-5.1 Codex"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.1-codex-max",
+          "label": "GPT-5.1 Codex Max"
+        },
+        {
+          "id": "@opencode-zen:gpt-5.1-codex-mini",
+          "label": "GPT-5.1 Codex Mini"
+        },
+        {
+          "id": "@opencode-zen:gpt-5",
+          "label": "GPT-5"
+        },
+        {
+          "id": "@opencode-zen:gpt-5-codex",
+          "label": "GPT-5 Codex"
+        },
+        {
+          "id": "@opencode-zen:gpt-5-nano",
+          "label": "GPT-5 Nano"
+        },
+        {
+          "id": "@opencode-zen:claude-opus-4-7",
+          "label": "Claude Opus 4.7"
+        },
+        {
+          "id": "@opencode-zen:claude-opus-4-6",
+          "label": "Claude Opus 4.6"
+        },
+        {
+          "id": "@opencode-zen:claude-opus-4-5",
+          "label": "Claude Opus 4.5"
+        },
+        {
+          "id": "@opencode-zen:claude-opus-4-1",
+          "label": "Claude Opus 4.1"
+        },
+        {
+          "id": "@opencode-zen:claude-sonnet-4-6",
+          "label": "Claude Sonnet 4.6"
+        },
+        {
+          "id": "@opencode-zen:claude-sonnet-4-5",
+          "label": "Claude Sonnet 4.5"
+        },
+        {
+          "id": "@opencode-zen:claude-sonnet-4",
+          "label": "Claude Sonnet 4"
+        },
+        {
+          "id": "@opencode-zen:claude-haiku-4-5",
+          "label": "Claude Haiku 4.5"
+        },
+        {
+          "id": "@opencode-zen:claude-3-5-haiku",
+          "label": "Claude 3.5 Haiku"
+        },
+        {
+          "id": "@opencode-zen:gemini-3.1-pro-preview",
+          "label": "Gemini 3.1 Pro Preview"
+        },
+        {
+          "id": "@opencode-zen:gemini-3-flash-preview",
+          "label": "Gemini 3 Flash Preview"
+        },
+        {
+          "id": "@opencode-zen:gemini-3.1-flash-lite-preview",
+          "label": "Gemini 3.1 Flash Lite Preview"
+        },
+        {
+          "id": "@opencode-zen:gemini-2.5-pro",
+          "label": "Gemini 2.5 Pro"
+        },
+        {
+          "id": "@opencode-zen:gemini-2.5-flash",
+          "label": "Gemini 2.5 Flash"
+        },
+        {
+          "id": "@opencode-zen:glm-5.1",
+          "label": "GLM-5.1"
+        },
+        {
+          "id": "@opencode-zen:glm-5",
+          "label": "GLM-5"
+        },
+        {
+          "id": "@opencode-zen:kimi-k2.5",
+          "label": "Kimi K2.5"
+        },
+        {
+          "id": "@opencode-zen:minimax-m2.5",
+          "label": "MiniMax M2.5"
+        },
+        {
+          "id": "@opencode-zen:minimax-m2.5-free",
+          "label": "MiniMax M2.5 Free"
+        },
+        {
+          "id": "@opencode-zen:nemotron-3-super-free",
+          "label": "Nemotron 3 Super Free"
+        },
+        {
+          "id": "@opencode-zen:big-pickle",
+          "label": "Big Pickle"
+        }
+      ]
+    }
+  ]
+}
